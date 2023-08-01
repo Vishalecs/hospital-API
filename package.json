@@ -8,7 +8,7 @@
      "start": "node index.js",
     "build": "npm start"
   },
-  "author": "Ayush",
+  "author": "vishal",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
