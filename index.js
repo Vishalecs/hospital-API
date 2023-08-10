@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(passport.initialize());
 
 // Use express router
-app.use('/doctors/register', require('./routes/index'))
+app.use('/', require('./routes/index'))
 
 app.listen(port, function (error) {
     if (error) {
